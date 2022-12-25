@@ -1,0 +1,96 @@
+.btn{
+    font-family: jianzhi;
+    
+}.menu-item{
+    font-family: jianzhi;
+}
+
+
+.girl1{
+    /* margin: 0 auto; */
+    margin-top: 200px;
+    margin-left: 600px;
+    width: 400px;
+    height: 250px;
+    /* display: block; */
+    
+}
+.img1{
+    position: absolute;
+    bottom: 52%;
+    left: 85%;
+    transform: translateX(-50%);
+
+}
+.img2{
+    position: absolute;
+    bottom: 51%;
+    left: 11%;
+    transform: translateX(-50%);
+
+}
+.box1{
+    font-family: jianzhi;
+    position: absolute;
+    bottom: 66%;
+    left: 6%;
+    font-size:25px;
+   
+
+}
+
+.girl2{
+    margin-top: 200px;
+    margin-left: 600px;
+    width: 400px;
+    height: 250px;
+    
+}
+
+.img3{
+    position: absolute;
+    bottom: 28%;
+    left: 81%;
+    transform: translateX(-50%);
+}
+.img4{
+    position: absolute;
+    bottom: 26%;
+    left: 11%;
+    transform: translateX(-50%);
+}
+.box2{
+    font-family: jianzhi;
+    position: absolute;
+    bottom: 41%;
+    left: 6%;
+    font-size:25px;
+}
+
+
+.girl3{
+    margin-top: 200px;
+    margin-left: 600px;
+    width: 400px;
+    height: 250px;
+    
+}
+.img5{
+    position: absolute;
+    bottom: 3%;
+    left: 81%;
+    transform: translateX(-50%);
+}
+.img6{
+    position: absolute;
+    bottom: 2%;
+    left: 13%;
+    transform: translateX(-50%);
+}
+.box3{
+    font-family: jianzhi;
+    position: absolute;
+    bottom: 17%;
+    left: 6%;
+    font-size:25px;
+}

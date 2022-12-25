@@ -1,0 +1,105 @@
+/*  */
+:root {
+    --primary: #2d8cf0;
+    --radius: 4px;
+    --border-default: 1px solid #e8eaec;
+}
+
+/* Layout 布局容器 */
+.layout {
+    position: relative;
+    background-color: #f5f3f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.layout-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    z-index: 3;
+}
+
+.layout-header-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* Button 按钮样式 */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid #dcdee2;
+    white-space: nowrap;
+    user-select: none;
+    padding: 0 16px;
+    background-color: #fff;
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    border-radius: 4px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #57a3f3;
+    background-color: #fff;
+    border-color: #57a3f3;
+}
+.btn.btn-primary {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* Card */
+.card-full-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.card-full-list {
+    position: relative;
+    top: 0;
+    transition: .2s linear;
+}
+.card-full {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Modal模态框 */
+.modal-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.modal.show, .modal-mask.show {
+    visibility: visible;
+    opacity: 1;
+}
